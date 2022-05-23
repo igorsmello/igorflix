@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Bebas Neue', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #fff;
+}
+#body {
+    background: #000;
+}
+/**********************************************************/
+
+/* Header */
+.header {
+    position: absolute;
+    top: 28px;
+    left: 56px;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+}
+.header img {
+    width: 160px;
+    height: 60px;
+}
+.header a {
+    display: inline-block;
+    background: #E30813;
+    color: #fff;
+    align-self: flex-start;
+    padding: 10px 14px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+/* Main */
+.main {
+    height: 700px;
+    background-image: url(/img/background-netflix.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    position: relative;
+}
+.main h1 {
+    font-size: 3.125rem;
+    font-weight: bold;
+    text-align: center;
+    max-width: 680px;
+}
+.main span {
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.form-action {
+    display: grid;
+    grid-template-columns: 448px 180px; /* input e botão */
+    margin-top: 20px;
+}
+.form-action input {
+    padding: 15px 10px;
+    font-size: 18px;
+}
+.form-action button {
+    background: #E30813;
+    color: #fff;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+.form-action button:after { /* seta > */
+    content: '';
+    display: inline-block;
+    background-image: url(/img/svg/seta-direita.svg);
+    width: 10px;
+    height: 20px;
+    margin-left: 10px;
+} 
+.form-action button:hover {
+    background: #F40612;
+}
+.main p {
+    font-size: 19px;
+}
+.support-main {
+    z-index: 1;
+    display: grid;
+    justify-items: center;
+}
+.gradient {
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+        to top, 
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+/**********************************************************/
+
+/* Sections */
+img {
+    display: block;
+    max-width: 100%;
+}
+.section-group {
+    padding: 4rem 0; /* ajustar */
+    border-top: 8px solid #222;
+}
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    align-items: center;
+}
+.section-group h2 {
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+.section-group p {
+    font-size: 26px;
+}
+
+/* Section 1 */
+.img-tv {
+    position: relative;
+}
+.img-tv img {
+    position: relative;
+    z-index: 1;
+}
+.video-tv {
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    width: 400px;
+}
+
+/* Section 2 */
+.stranger-things .grid > :first-child { /* invertendo a aparição nas sections */
+    order: 2;
+}
+.stranger-things .img-tv {
+    order: 1;
+    position: relative;
+}
+.stranger-things .img-tv img {
+    position: relative;
+}
+.stranger-things-card {
+    display: grid;
+    background: #000;
+    position: absolute;
+    left: 20%;
+    bottom: 8%;
+    border: 2px solid rgba(255, 255, 255, .25);
+    z-index: 1;
+    max-width: 330px;
+    width: 100%;
+    max-height: 90px;
+    grid-template-columns: 70px 240px;
+    border-radius: 0.75em;
+    box-shadow: 0 0 2em 0 #000;
+}
+.stranger-things-card-img {
+    margin: 10px 0;
+}
+.stranger-things-card-img img {
+    margin-left: 10px;
+    height: 73px;
+    width: 50px;
+}
+.stranger-things-card-text {
+    position: relative;
+    margin: 25px 0;
+    height: 43px;
+}
+.stranger-things-card-text h5 {
+    font-size: 14px;
+    color: #0071EB;
+}
+.stranger-things-card-text .ico-download {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 190px;
+    margin-top: -5px;
+}
+
+/* Section 3 */
+.screen-apple .video-tv {
+    width: 340px;
+    top: 40px;
+    left: 100px;
+}
