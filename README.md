@@ -4,7 +4,7 @@
 
 
 <h3 align="center">
-  <img src="/img/igorflix-1" style="width: 600px; height: 220px; align-items: center; justify-content: center; margin: auto; display: block;">
+  <img src="/img/igorflix-1.png" style="width: 600px; height: 220px; align-items: center; justify-content: center; margin: auto; display: block;">
 </h3><br><br><br>
 
 <p align="center">Este é um projeto de recriação do site do Netflix com algumas alterações</p>
