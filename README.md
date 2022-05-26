@@ -14,7 +14,7 @@
         <a href="#autor">Autor</a> 
 </p><br><br><br>
 
-<h3 align="center">Veja o site completo clicando <a target="_blank" href="https://performance-rh.netlify.app/">aqui</a></h3><br><br>
+<h3 align="center">Veja o site completo clicando <a target="_blank" href="">aqui</a></h3><br><br>
 
 <h4 align="center">🚧 Este projeto não foi 100% concluído! 🚧</h4><br><br><br><br><br><br><br><br><br><br><br><br>
 
